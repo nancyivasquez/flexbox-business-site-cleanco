@@ -1,0 +1,111 @@
+html{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    margin: 0;
+}
+.header-content a{
+    display: block;
+    text-align: center;
+}
+.header-content nav{
+    text-align: center;
+}
+.header-content ul{
+    padding: 0;
+}
+.header-content li{
+    display: inline-block;
+    padding:0 0.5rem 0 0.5rem;
+}
+.header-content li a{
+    text-decoration: none;
+    color: black;
+}
+.header-content li a:hover{
+    text-decoration: none;
+    color:#0077B6;
+}
+.hero{
+    width: 100vw;
+    
+}
+h1{
+    text-align: center;
+    color: #0077B6;
+    background-image: url('./images/hero-image.png');
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 1rem 6rem 1rem;
+}
+@media (min-width: 1000px){
+    h1{
+        padding: 10rem 1rem 10rem 1rem;
+    }
+}
+h2{
+    text-align: center;
+}
+#about{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+#about p{
+    text-align: justify;
+}
+.services-content{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1100px){
+    .services-content{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .service{
+        padding: 1rem;
+    }
+}
+.service{
+    text-align: center;
+}
+#team{
+    text-align: center;
+}
+.team-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width:1100px ){
+    .team-content{
+        width: 90%;
+        margin: auto;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team-member{
+        padding: 1rem;
+    }
+}
+.team-member{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
+#contact p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+footer p{
+    text-align: center;
+}
